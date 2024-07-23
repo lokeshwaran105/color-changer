@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+#box{
+    background-color: yellow;
+    height: 200px;
+    width: 500px;
+}
+
+#box-text{
+    position: relative;
+    top: 100px;
+    left: 120px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.container button{
+    height: 50px;
+    padding: 0 20px;
+    background-color: rgb(45, 231, 45);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+
